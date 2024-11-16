@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Website Mockup</title>
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+<style>
+body {
+background-color: #f4f4f4; /* light gray background */
+}
+.navbar {
+background-color: #003366; /* darker blue header */
+}
+.navbar-brand {
+color: white;
+margin-left: auto;
+margin-right: auto;
+}
+.navbar-toggler {
+border: none;
+}
+.search-box {
+display: flex;
+align-items: center;
+padding: 20px;
+}
+.search-box input {
+width: calc(100% - 20px);
+padding: 5px;
+border-radius: 5px;
+margin-right: 10px;
+}
+.projects-button {
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 20px;
+}
+.projects-button button {
+background-color: #003366;
+color: white;
+border: none;
+padding: 10px 20px;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+.grid-container {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 10px;
+padding: 20px;
+}
+.grid-item {
+background-color: #003366;
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+height: 100px;
+}
+.grid-item a {
+color: white;
+text-decoration: none;
+font-size: 1.5em;
+}
+.footer {
+background-color: #003366;
+color: white;
+width: 100%;
+padding: 10px;
+position: fixed;
+bottom: 0;
+text-align: center;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark">
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+<span class="navbar-toggler-icon"></span>
+</button>
+<a class="navbar-brand mx-auto" href="#">www.example.be</a>
+<div class="container-fluid">
+</nav>
+ 
+
+<div class="search-box mt-5 pt-4">
+<input type="search" placeholder="Search..." class="form-control">
+</div>
+
+<div class="projects-button">
+<button type="button">MY PROJECTS</button>
+<div class="Power Icon">
+<img src="https://www.freeiconspng.com/uploads/power-button-icon-32.png" width="150" height="150"="Power Icon">
+</div>
+</div>
+
+<div class="grid-container">
+<div class="grid-item"><a href="Index.html">1</a></div>
+<div class="grid-item"><a href="P1Index.html">2</a></div>
+<div class="grid-item"><a href="P2.html">3</a></div>
+<div class="grid-item"><a href="P2.P.html">4</a></div>
+<div class="grid-item"><a href="P3.html">5</a></div>
+<div class="grid-item"><a href="P3.P.html">6</a></div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
